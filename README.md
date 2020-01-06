@@ -8,6 +8,6 @@ cd
 
 docker build -t vyshnav/nodeapp .
 
-docker run -p 7000:7000 vyshnav/nodeapp
+docker run -p 3000:3000 vyshnav/nodeapp
 
-localhost:7000
+localhost:3000
