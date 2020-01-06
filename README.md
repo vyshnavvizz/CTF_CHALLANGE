@@ -4,7 +4,7 @@ Simple Node app
 
 Clone the Respository using gitclone
 
-cd
+cd CTF_CHALLANGE
 
 docker build -t vyshnav/nodeapp .
 
