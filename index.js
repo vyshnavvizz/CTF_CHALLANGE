@@ -43,7 +43,7 @@ app.post('/login', function(req, res) {
         } else if (!row) {
             res.redirect("/index.html#unauthorized");
         } else {
-            res.send('<body bgcolor="#00cc66"><h1 align="center">Hello <b>' + row.name + ' Here is Your Flag:</b><br /><a href="/index.html">Go back to login</a></h1>');
+            res.send('<body bgcolor="#00cc66"><h1 align="center">Hello <b>' + row.name + ' Welcome Admin :</b><br /><a href="/index.html">Go back to login</a></h1>');
         }
     });
 
